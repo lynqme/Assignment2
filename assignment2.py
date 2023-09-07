@@ -44,7 +44,7 @@ class Assignment2:
        count = 0
        amt = 0
        for x in range(len(string)):
-           if (string[count].isnumeric()):
+           if (string[count].isdigit()):
                amt += 1
            count += 1
 
