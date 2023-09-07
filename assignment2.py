@@ -46,11 +46,11 @@ class Assignment2:
        for x in range(len(string)):
            if (string[count].isnumeric()):
                amt += 1
+               if(amt>1):
+                   return False
            count += 1
 
-       print(len(string))
-       print(string[0])
-       print(amt)
+
        if ((len(string) >= 9) and (string[0].islower())  and (amt<=1)):
            return True
        else:
