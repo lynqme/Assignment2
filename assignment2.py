@@ -60,15 +60,3 @@ class Assignment2:
             return True
         except:
             return False
-
-obj = Assignment2(1782)
-obj.tellAge(2022)
-print(obj.listAnniversaries())
-print(obj.modifyYear(3))
-print(obj.checkGoodString("f1obar0more"))
-print(obj.checkGoodString("foobar0more"))
-retval = obj.connectTcp("www.google.com", 80)
-if retval:
-    print("Connection established correctly")
-else:
-    print("Some error")
