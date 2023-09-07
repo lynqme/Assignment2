@@ -48,7 +48,7 @@ class Assignment2:
                amt += 1
            count += 1
 
-       if ((len(string) >= 9) and (string[0].islower())  and (amt<=1)):
+       if ((len(string) >= 9) and (string[0].islower())  and (amt==1)):
            print("true")
            return True
        else:
