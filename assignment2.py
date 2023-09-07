@@ -49,10 +49,8 @@ class Assignment2:
            count += 1
 
        if ((len(string) >= 9) and (string[0].islower())  and (amt==1)):
-           print("true")
            return True
        else:
-           print("false")
            return False
 
     @staticmethod
