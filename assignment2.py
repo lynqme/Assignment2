@@ -41,6 +41,7 @@ class Assignment2:
 
     @staticmethod
     def checkGoodString(string):
+       print(string)
        count = 0
        amt = 0
        for x in range(len(string)):
