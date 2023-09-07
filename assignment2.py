@@ -41,16 +41,12 @@ class Assignment2:
 
     @staticmethod
     def checkGoodString(string):
-       print(string)
        count = 0
        amt = 0
        for x in range(len(string)):
            if (string[count].isnumeric()):
                amt += 1
-               if(amt>1):
-                   return False
            count += 1
-
 
        if ((len(string) >= 9) and (string[0].islower())  and (amt<=1)):
            return True
