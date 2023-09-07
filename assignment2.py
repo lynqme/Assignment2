@@ -10,7 +10,7 @@ class Assignment2:
     def tellAge(self, currentYear):
         global age
         age = currentYear-self.year
-        print("Your age is", age)
+        print("Your age is   ", age)
 
     def listAnniversaries(self):
         y = math.floor(age/10)
