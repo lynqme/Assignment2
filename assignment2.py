@@ -51,7 +51,7 @@ class Assignment2:
        print(len(string))
        print(string[0])
        print(amt)
-       if (len(string) >= 9) and (string[0].islower())  and (amt<=1):
+       if ((len(string) >= 9) and (string[0].islower())  and (amt<=1)):
            return True
        else:
            return False
