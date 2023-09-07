@@ -13,6 +13,7 @@ class Assignment2:
         print("Your age is", age)
 
     def listAnniversaries(self):
+        age = 2022-year
         y = math.floor(age/10)
         anniversaries=[]
         count = 1
