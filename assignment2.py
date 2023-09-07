@@ -43,10 +43,10 @@ class Assignment2:
     def checkGoodString(string):
        count = 0
        amt = 0
-       for x in range(len(string)):
-           if (string[count].isnumeric()):
-               amt += 1
-           count += 1
+           for x in range(len(string)):
+               if (string[count].isnumeric()):
+                   amt += 1
+               count += 1
        print(len(string))
        print(string[0])
        print(amt)
