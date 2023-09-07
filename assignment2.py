@@ -47,7 +47,8 @@ class Assignment2:
            if (string[count].isnumeric()):
                amt += 1
            count += 1
-       if (len(string) >= 9) and (string[0].islower())  and (amt<=1):
+       print(amt)
+        if (len(string) >= 9) and (string[0].islower())  and (amt<=1):
            return True
        else:
            return False
